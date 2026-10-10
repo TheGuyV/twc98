@@ -1,29 +1,29 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "첫 시험판",
+  "notes": "런처 아이콘 변경",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.0/TWCLauncher.exe",
-      "sha256": "f1eea723a7c8908878b60b4e433866d0755c95a2c583deebfb0b03f6791f65e6",
-      "size": 113114232
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.1/TWCLauncher.exe",
+      "sha256": "b3b27bb941be61bab777a17862ec8d6f91c3d3248f7acbdf4e49b774328e988e",
+      "size": 113130616
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.0/twcnet.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.1/twcnet.lua",
       "sha256": "e93fd4e3c648e57b2c2a175703e34f3ce517d98d110182ba89503f1eba4ff144",
       "size": 57283
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.0/twckeys.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.1/twckeys.lua",
       "sha256": "127d17679c99c2e02bf50514b5175b9358c8f848fce6f4d0d51aa12fdce2580e",
       "size": 1647
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.0/twcsolo.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.1/twcsolo.lua",
       "sha256": "a2b1f7f003d0f61c8f922baac31b19b2470ad727cfcf4dedabab864927c3df0c",
       "size": 1588
     }
