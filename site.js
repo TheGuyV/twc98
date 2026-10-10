@@ -1,7 +1,7 @@
 // Tecmo World Cup '98 Online - page behaviour: language (Korean default, English), the nav's background, reveal on
 // scroll, the download button (its address is set when the zip is published)
 (() => {
-  const DOWNLOAD_URL = '';      // set at the first release, e.g. https://github.com/TheGuyV/twc98/releases/latest/download/TWCOnline.zip
+  const DOWNLOAD_URL = 'https://github.com/TheGuyV/twc98/releases/latest/download/TWCOnline.zip';
   const root = document.documentElement;
 
   // ---- language: every element with data-en keeps its Korean in data-ko
