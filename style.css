@@ -50,6 +50,14 @@ a { color: inherit; }
 }
 .nav::after { bottom: -9px; }
 .nav.solid { box-shadow: 0 10px 24px rgba(19, 35, 91, .12); }
+/* the family sites (user 2026-10-13 "다른 게임들도 상단에 패밀리 사이트로 서로 링크하자"): a thin first row of the nav */
+.nav { flex-wrap: wrap; row-gap: 6px; }
+.nav .family { order: -1; flex-basis: 100%; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px;
+  font: 500 12px/1.4 var(--body); color: var(--muted); padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+.nav .family a { color: var(--navy); text-decoration: none; font-weight: 700; }
+.nav .family a:hover { color: var(--red); text-decoration: underline; }
+.nav .family .fam-here { color: var(--blue); font-weight: 700; }
+.nav .family .fam-label { font-weight: 700; letter-spacing: .04em; margin-right: 4px; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; font: 16px/1 var(--display); letter-spacing: .02em; white-space: nowrap; }
 .brand b { color: var(--red); font-weight: 400; }
 .links { margin-left: auto; display: flex; align-items: center; gap: 24px; }
