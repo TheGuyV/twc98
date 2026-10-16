@@ -1,31 +1,31 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "게임 스크립트 주석 정리 (기능 변경 없음)",
+  "notes": "",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.5/TWCLauncher.exe",
-      "sha256": "6637a3a9e12bc65d83f38751c7113c7a9a044049332afc9404444415819f47d2",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.6/TWCLauncher.exe",
+      "sha256": "de3aa8b3f595a489cc651b304d282f876151d922f04267186f1ca456dbafa2b1",
       "size": 113138808
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.5/twcnet.lua",
-      "sha256": "b574eff09348caec073e9e27f7662be157b0d5055c4b72fa7f0538ddc1f2191d",
-      "size": 57277
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.6/twcnet.lua",
+      "sha256": "1257421b549785ec41310ae69fb29e45719d9a40b89f860400b0b60c1e21f3cc",
+      "size": 57766
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.5/twckeys.lua",
-      "sha256": "6f22190b0f45a154d92114f527753526e9789f5b2f2158a31678e2c9c6a66a49",
-      "size": 1978
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.6/twckeys.lua",
+      "sha256": "fbbe0551fde9f34eab1de32259f692b2298849102305bb35409070f388d0f2ed",
+      "size": 2467
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.5/twcsolo.lua",
-      "sha256": "cf105e4a3337185877d5e16d22eed6c4b272d2b43a30fb1733ae18770461cea1",
-      "size": 2007
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.6/twcsolo.lua",
+      "sha256": "cbe506d9bd14681d0f2cd9a79b8a87e8d3760ec1c01bdfe01093952cce57afe8",
+      "size": 2496
     }
   ]
 }
