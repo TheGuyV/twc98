@@ -1,31 +1,31 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "url": "https://twc98.seibucup.online/#download",
   "notes": "",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.6/TWCLauncher.exe",
-      "sha256": "de3aa8b3f595a489cc651b304d282f876151d922f04267186f1ca456dbafa2b1",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.7/TWCLauncher.exe",
+      "sha256": "ad2996979f64d24a74cb4ea6519b895512d6f0f007256e1112bd7821458c14ad",
       "size": 113138808
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.6/twcnet.lua",
-      "sha256": "1257421b549785ec41310ae69fb29e45719d9a40b89f860400b0b60c1e21f3cc",
-      "size": 57766
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.7/twcnet.lua",
+      "sha256": "01703a238e0a56ec2131e731190b984eab02d5b70ccb41a3546e2541e3fb631f",
+      "size": 58117
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.6/twckeys.lua",
-      "sha256": "fbbe0551fde9f34eab1de32259f692b2298849102305bb35409070f388d0f2ed",
-      "size": 2467
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.7/twckeys.lua",
+      "sha256": "b62ed1d91cbc304c8ec2b93a826c6c86095078fb008d3888f0f2bebf2577ba8c",
+      "size": 2818
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.6/twcsolo.lua",
-      "sha256": "cbe506d9bd14681d0f2cd9a79b8a87e8d3760ec1c01bdfe01093952cce57afe8",
-      "size": 2496
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.7/twcsolo.lua",
+      "sha256": "379e6da6b18bb4a55bc6a3e57c4588740daac667ce64d1a88a89769213bcbee5",
+      "size": 2847
     }
   ]
 }
