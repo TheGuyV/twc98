@@ -1,31 +1,31 @@
 {
-  "version": "0.1.8",
+  "version": "0.1.9",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "저사양 모드 (게임 > 저사양 모드)",
+  "notes": "골키퍼 멈춤 보정 강화",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.8/TWCLauncher.exe",
-      "sha256": "8823382b2b65d6f0ad2dad8de7442aae6bf66577eec34e9caa66d5ae785e0baf",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.9/TWCLauncher.exe",
+      "sha256": "fbfb1aa2fa5ff7ff8846c120a93bcff274cfc6b638492b80ba0b97cc28de0ee3",
       "size": 113142904
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.8/twcnet.lua",
-      "sha256": "01703a238e0a56ec2131e731190b984eab02d5b70ccb41a3546e2541e3fb631f",
-      "size": 58117
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.9/twcnet.lua",
+      "sha256": "6e22bf3681402fbc6fd387a459295dd7dd780fd961322e10dc78993df2c6e48e",
+      "size": 59436
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.8/twckeys.lua",
-      "sha256": "b62ed1d91cbc304c8ec2b93a826c6c86095078fb008d3888f0f2bebf2577ba8c",
-      "size": 2818
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.9/twckeys.lua",
+      "sha256": "27112481bdf373f146f2739abe7389f411efe8cb8614c53afdbf93b6c49b1e19",
+      "size": 3559
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.8/twcsolo.lua",
-      "sha256": "379e6da6b18bb4a55bc6a3e57c4588740daac667ce64d1a88a89769213bcbee5",
-      "size": 2847
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.9/twcsolo.lua",
+      "sha256": "c1edb4839e4f748d9c02bd02cf8ba6b689066f2190b9a7ce8171aa6b131792c6",
+      "size": 3588
     }
   ]
 }
