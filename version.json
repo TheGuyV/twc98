@@ -1,31 +1,31 @@
 {
-  "version": "0.1.10",
+  "version": "0.1.11",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "세이부 오락실 옆 오락실 연동",
+  "notes": "1P 골키퍼 멈춤 보정",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.10/TWCLauncher.exe",
-      "sha256": "00150fe2a10aa2ce60bcb810276613ba2985a5691dde7b6f5873a4723134ac85",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.11/TWCLauncher.exe",
+      "sha256": "fa8c83c92d5b4079dd7a93f38c2b1e633e4ab16d93848dfdf714bf6930c173cb",
       "size": 113142904
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.10/twcnet.lua",
-      "sha256": "6e22bf3681402fbc6fd387a459295dd7dd780fd961322e10dc78993df2c6e48e",
-      "size": 59436
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.11/twcnet.lua",
+      "sha256": "a3843b24d40406a22b5455c505af7ebc8149e67b10615956b0eb22a3f1e29695",
+      "size": 59788
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.10/twckeys.lua",
-      "sha256": "27112481bdf373f146f2739abe7389f411efe8cb8614c53afdbf93b6c49b1e19",
-      "size": 3559
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.11/twckeys.lua",
+      "sha256": "a7a3c1443fbb21e93350f50d5d0a203efab86e7a024f943f69bcbb83467b177a",
+      "size": 3758
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.10/twcsolo.lua",
-      "sha256": "c1edb4839e4f748d9c02bd02cf8ba6b689066f2190b9a7ce8171aa6b131792c6",
-      "size": 3588
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.11/twcsolo.lua",
+      "sha256": "51065a88604d3652f52921433eee6d38658e50d2d8a3fc5328787fa9732f04f1",
+      "size": 3784
     }
   ]
 }
