@@ -89,7 +89,7 @@
       </li>
       <li class="rv">
         <h3 data-en="Smooth over the internet">인터넷에서도 부드럽게</h3>
-        <p data-en="The launcher tunes itself to both connections, even during the match. Names and pings sit on a thin bar under the picture.">두 사람의 회선에 맞춰 런처가 알아서 조절합니다. 경기 중에도 계속. 이름과 핑은 화면 아래 얇은 막대에 나옵니다.</p>
+        <p data-en="The launcher tunes itself to both connections, even during the match. Inputs also go by UDP, several frames at a time, so a lost packet no longer holds the game, and after a wait the game does not rush to catch up. Names, pings and UDP/TCP sit on a thin bar under the picture.">두 사람의 회선에 맞춰 런처가 알아서 조절합니다. 경기 중에도 계속. 입력을 UDP로 몇 프레임씩 겹쳐 보내서 패킷 하나가 사라져도 멈칫하지 않고, 잠깐 기다린 뒤에도 빨라졌다 느려지는 출렁임이 없습니다. 이름, 핑, UDP/TCP는 화면 아래 얇은 막대에 나옵니다.</p>
       </li>
       <li class="rv">
         <h3 data-en="Your own keys">내 키 그대로</h3>
@@ -141,8 +141,8 @@
       </div>
       <div class="mode rv">
         <p class="tag" data-en="HOST A ROOM">직접 연결 · 방 열기</p>
-        <p data-en="Your PC holds the room. For a friend outside your home, forward TCP 7210 on your router and allow the launcher in the Windows firewall.">내 PC가 방이 됩니다. 다른 집에서 들어오려면 공유기에서 TCP 7210 포트를 열고, Windows 방화벽 창에서 허용해 주세요.</p>
-        <code>TCP 7210</code>
+        <p data-en="Your PC holds the room. For a friend outside your home, forward TCP 7210 on your router and allow the launcher in the Windows firewall. UDP 7210 as well makes it smoother (without it, the match goes over TCP only).">내 PC가 방이 됩니다. 다른 집에서 들어오려면 공유기에서 TCP 7210 포트를 열고, Windows 방화벽 창에서 허용해 주세요. UDP 7210도 열면 더 부드럽습니다 (안 열면 TCP로만 진행).</p>
+        <code>TCP 7210 · UDP 7210</code>
       </div>
       <div class="mode rv">
         <p class="tag" data-en="JOIN A HOST">직접 연결 · 참가</p>
@@ -166,7 +166,7 @@
         <div><dt data-en="System">운영체제</dt><dd data-en="Windows 10 · 11, 64-bit">Windows 10 · 11 (64비트)</dd></div>
         <div><dt data-en="Install">설치</dt><dd data-en="None — unpack and run (.NET included)">필요 없음 · 풀어서 실행 (.NET 포함)</dd></div>
         <div><dt data-en="Game ROMs">게임 롬</dt><dd data-en="Not included — twcup98.zip + stvbios.zip">포함 안 됨 · twcup98.zip + stvbios.zip</dd></div>
-        <div><dt data-en="PC">PC 사양</dt><dd data-en="Sega's ST-V board is heavy for MAME: a desktop PC is best. On a slow PC turn on the launcher's Game &gt; Low-spec mode - fewer pictures are drawn to keep the speed">세가 ST-V 기판이라 MAME에서 무거운 편입니다. 데스크톱을 권하고, 느린 PC는 런처의 게임 &gt; 저사양 모드를 켜 주세요 (화면을 덜 그려서 속도를 맞춥니다)</dd></div>
+        <div><dt data-en="PC">PC 사양</dt><dd data-en="Sega's ST-V board is heavy for MAME: a desktop PC is best.">세가 ST-V 기판이라 MAME에서 무거운 편입니다. 데스크톱을 권합니다.</dd></div>
       </dl>
     </div>
     <p class="rom-note rv" data-en="The game ROMs are not part of the download. Please use ROMs you own.">게임 롬 파일은 내려받는 파일에 들어 있지 않습니다. 직접 가지고 계신 롬을 넣어 주세요.</p>
@@ -178,7 +178,7 @@
 <footer class="foot">
   <div class="wrap">
     <p data-en="A non-commercial fan project. Tecmo World Cup '98 is a work of Tecmo, on Sega's ST-V hardware; this site has no connection with Tecmo, Koei Tecmo or Sega.">비상업 팬 프로젝트입니다. 테크모 월드컵 98(Tecmo World Cup '98)은 테크모의 저작물이며 세가 ST-V 기판용 게임입니다. 이 사이트는 테크모, 코에이테크모, 세가와 관련이 없습니다.</p>
-    <p data-en="Emulator: the official MAME 0.289 release, unmodified (GPL-2.0); the bug fix is a script that runs alongside it. Source: github.com/mamedev/mame, tag mame0289. The launcher and the netplay scripts (Lua) are distributed only from this site; they may not be modified or redistributed without permission.">에뮬레이터: 공식 MAME 0.289 배포판을 수정 없이 사용합니다 (GPL-2.0). 버그 수정은 함께 실행되는 스크립트로 적용됩니다. 소스: github.com/mamedev/mame, 태그 mame0289. 런처와 넷플레이 스크립트(Lua)는 이 사이트에서만 배포하며, 허락 없이 수정하거나 재배포할 수 없습니다.</p>
+    <p data-en="Emulator: MAME 0.289 (GPL-2.0) built by us with small netplay changes (UDP inputs, the speed after a wait); the keeper fix is a script that runs alongside it. Source: github.com/mamedev/mame, tag mame0289, plus our changes (mame0289-twc.patch with every GitHub release). The launcher and the netplay scripts (Lua) are distributed only from this site; they may not be modified or redistributed without permission.">에뮬레이터: MAME 0.289 (GPL-2.0)에 넷플레이용 작은 수정(UDP 입력 전송, 기다린 뒤 속도)을 더해 직접 빌드했습니다. 골키퍼 버그 수정은 함께 실행되는 스크립트로 적용됩니다. 소스: github.com/mamedev/mame, 태그 mame0289 + 수정 내용(GitHub 릴리스마다 mame0289-twc.patch 첨부). 런처와 넷플레이 스크립트(Lua)는 이 사이트에서만 배포하며, 허락 없이 수정하거나 재배포할 수 없습니다.</p>
   </div>
 </footer>
 
