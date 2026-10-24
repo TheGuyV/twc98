@@ -1,37 +1,37 @@
 {
-  "version": "0.1.12",
+  "version": "0.1.13",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "UDP 입력 전송, 기다린 뒤 속도 출렁임 제거, 경기 통계, 저사양 모드 제거 (온라인 대전은 모두 0.1.12 필요)",
+  "notes": "사운드 끊김 수정: MAME을 정식 0.289 소스로 다시 빌드 (0.1.12 빌드보다 약 10% 빠름). 온라인 대전은 모두 0.1.13 필요",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.12/TWCLauncher.exe",
-      "sha256": "d5ac8e75f8f17ef96b0e0dc0b569f9c6c1d6e72a523a87f00b78191454dc00a4",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.13/TWCLauncher.exe",
+      "sha256": "61c84fae09876ce3df97bd1eff48a16bdc60a0f3bebf216082d526736987dc15",
       "size": 113147000
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.12/twcnet.lua",
-      "sha256": "797ccf2e9d54744a09726c5cdf3fe40a7df32b94a52733498cd52d22eb9c9272",
-      "size": 68563
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.13/twcnet.lua",
+      "sha256": "624f4cb2c8ff3aece82f4ecec8c4a70f644167147b84341bca9bbce3e4f5e731",
+      "size": 68564
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.12/twckeys.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.13/twckeys.lua",
       "sha256": "a7a3c1443fbb21e93350f50d5d0a203efab86e7a024f943f69bcbb83467b177a",
       "size": 3758
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.12/twcsolo.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.13/twcsolo.lua",
       "sha256": "51065a88604d3652f52921433eee6d38658e50d2d8a3fc5328787fa9732f04f1",
       "size": 3784
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.12/mame.exe",
-      "sha256": "8f27b524c94dedbd3380965a5b47ada54947bd39f9e0b96c23f3213020bf2867",
-      "size": 61851136
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.13/mame.exe",
+      "sha256": "b748456b31553ce12b54f5cb51adc9f2d409aaad4bac292d2e03c4e2c7a59469",
+      "size": 50629632
     }
   ]
 }
