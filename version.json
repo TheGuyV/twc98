@@ -1,37 +1,37 @@
 {
-  "version": "0.1.14",
+  "version": "0.1.15",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "경기 중 동기화 복구 뒤 '자동 매칭' 화면으로 멈추던 문제 수정, 경기가 10초간 거의 진행되지 않으면 사유를 띄우고 종료",
+  "notes": "게임 속도 개선: 화면(경기장 바닥·선수)을 CPU 여러 코어로 나눠 그려 경기 장면이 약 1.7배 빨라짐. 0.1.14와 함께 대전 가능",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.14/TWCLauncher.exe",
-      "sha256": "072086b6b0c5304b0bd881648906e0cd7a0541e7694c2c6dbeb7195a853e4896",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.15/TWCLauncher.exe",
+      "sha256": "55c8c97f4ccc09b162291ac3651389e334c8e77522d7a8c4e89bef1b603e4c9c",
       "size": 113147000
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.14/twcnet.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.15/twcnet.lua",
       "sha256": "ea4ce5cf1bbbb7514aaa4994214d014220e414beb2cd37b8163d500f08f85b94",
       "size": 69963
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.14/twckeys.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.15/twckeys.lua",
       "sha256": "a7a3c1443fbb21e93350f50d5d0a203efab86e7a024f943f69bcbb83467b177a",
       "size": 3758
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.14/twcsolo.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.15/twcsolo.lua",
       "sha256": "51065a88604d3652f52921433eee6d38658e50d2d8a3fc5328787fa9732f04f1",
       "size": 3784
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.14/mame.exe",
-      "sha256": "b748456b31553ce12b54f5cb51adc9f2d409aaad4bac292d2e03c4e2c7a59469",
-      "size": 50629632
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.15/mame.exe",
+      "sha256": "5985438ef8cb887255fe83ff657b4d27003a6363c31a879a146b546761e64909",
+      "size": 50640384
     }
   ]
 }
