@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>테크모 월드컵 98 온라인 · Tecmo World Cup '98 Online</title>
-<meta name="description" content="1998년 오락실 축구 테크모 월드컵 98을 MAME로 온라인 1:1 대전. 팀 선택까지 자동 진행, 관전, 입력 지연 자동 조절, MAME 골키퍼 멈춤 버그 수정. Windows 런처.">
+<meta name="description" content="1998년 오락실 축구 테크모 월드컵 98을 MAME로 온라인 1:1 대전. 팀 선택까지 자동 진행, 관전, 입력 지연 자동 조절, UDP 입력 전송, 멀티코어 화면 처리, MAME 골키퍼 멈춤 버그 수정. Windows 런처.">
 <meta name="theme-color" content="#13235b">
 <meta property="og:type" content="website">
 <meta property="og:title" content="테크모 월드컵 98 온라인 · Tecmo World Cup '98 Online">
@@ -99,6 +99,18 @@
         <h3 data-en="Server or direct">서버 또는 직접 연결</h3>
         <p data-en="Play through the online server, or host the room on your own PC and let your friend join your address.">온라인 서버로 하거나, 내 PC로 방을 열어 친구가 내 주소로 들어오게 할 수 있습니다.</p>
       </li>
+      <li class="rv">
+        <h3 data-en="Lighter on your PC">PC 부담 줄이기</h3>
+        <p data-en="The pitch and the players are drawn on all your CPU cores, so a match runs about 1.7× as fast as in plain MAME — the picture and the game stay exactly the same.">경기장 바닥과 선수를 CPU 여러 코어로 나눠 그립니다. 일반 MAME보다 경기 장면이 약 1.7배 빠르고, 그림과 게임 내용은 원래와 똑같습니다.</p>
+      </li>
+      <li class="rv">
+        <h3 data-en="Fixes itself">어긋나도 스스로 복구</h3>
+        <p data-en="If the two PCs drift apart, they are brought back in step from the host's game. A match that stops moving for 10 s ends with the reason on screen instead of hanging.">두 PC가 어긋나면 방장의 게임 상태로 다시 맞춥니다. 10초 넘게 경기가 진행되지 않으면 멈춰 있지 않고 이유를 띄운 뒤 끝냅니다.</p>
+      </li>
+      <li class="rv">
+        <h3 data-en="Always up to date">알아서 최신 버전</h3>
+        <p data-en="The launcher updates itself when it starts. While it is minimised, a pop-up tells you when someone joins your room.">런처를 켜면 새 버전을 받아 스스로 바꿉니다. 창을 내려 둔 사이 누가 방에 들어오면 알림 창으로 알려 줍니다.</p>
+      </li>
     </ul>
   </div>
 </section>
@@ -158,7 +170,7 @@
       <div class="dl-copy">
         <p class="kicker">DOWNLOAD</p>
         <h2 data-en="Grab the launcher">런처 받기</h2>
-        <p class="sub" data-en="One zip with everything: the launcher and MAME 0.289, keeper fix included.">압축 파일 하나에 런처와 MAME 0.289가 모두 들어 있습니다. 골키퍼 버그 수정도 포함.</p>
+        <p class="sub" data-en="One zip with everything: the launcher and our MAME 0.289 build, keeper fix included.">압축 파일 하나에 런처와 MAME 0.289(직접 빌드)가 모두 들어 있습니다. 골키퍼 버그 수정도 포함.</p>
         <a class="btn primary big" href="#" id="dlbtn"><span data-en="Download TWCOnline.zip">TWCOnline.zip 받기</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14"/></svg></a>
         <p class="dl-note" id="dlnote" hidden data-en="The download opens soon.">다운로드는 곧 열립니다.</p>
       </div>
@@ -166,7 +178,7 @@
         <div><dt data-en="System">운영체제</dt><dd data-en="Windows 10 · 11, 64-bit">Windows 10 · 11 (64비트)</dd></div>
         <div><dt data-en="Install">설치</dt><dd data-en="None — unpack and run (.NET included)">필요 없음 · 풀어서 실행 (.NET 포함)</dd></div>
         <div><dt data-en="Game ROMs">게임 롬</dt><dd data-en="Not included — twcup98.zip + stvbios.zip">포함 안 됨 · twcup98.zip + stvbios.zip</dd></div>
-        <div><dt data-en="PC">PC 사양</dt><dd data-en="Sega's ST-V board is heavy for MAME: a desktop PC is best.">세가 ST-V 기판이라 MAME에서 무거운 편입니다. 데스크톱을 권합니다.</dd></div>
+        <div><dt data-en="PC">PC 사양</dt><dd data-en="Sega's ST-V board is heavy for MAME. A PC with 4 or more CPU cores is best: the picture is drawn on all of them.">세가 ST-V 기판이라 MAME에서 무거운 편입니다. 화면을 여러 코어로 나눠 그리므로 CPU 4코어 이상을 권합니다.</dd></div>
       </dl>
     </div>
     <p class="rom-note rv" data-en="The game ROMs are not part of the download. Please use ROMs you own.">게임 롬 파일은 내려받는 파일에 들어 있지 않습니다. 직접 가지고 계신 롬을 넣어 주세요.</p>
