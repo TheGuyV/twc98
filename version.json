@@ -1,36 +1,36 @@
 {
-  "version": "0.1.15",
+  "version": "0.1.16",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "게임 속도 개선: 화면(경기장 바닥·선수)을 CPU 여러 코어로 나눠 그려 경기 장면이 약 1.7배 빨라짐. 0.1.14와 함께 대전 가능",
+  "notes": "MAME 수정 고지 보완: 고친 소스 파일마다 변경 표시, 압축의 mame 폴더에 SOURCE.txt (소스 받는 곳) 추가. 0.1.14/0.1.15와 함께 대전 가능",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.15/TWCLauncher.exe",
-      "sha256": "55c8c97f4ccc09b162291ac3651389e334c8e77522d7a8c4e89bef1b603e4c9c",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.16/TWCLauncher.exe",
+      "sha256": "07239e05c7115092f475754cd95d57edee82f9852b829af3e6d1a96d61c2da70",
       "size": 113147000
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.15/twcnet.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.16/twcnet.lua",
       "sha256": "ea4ce5cf1bbbb7514aaa4994214d014220e414beb2cd37b8163d500f08f85b94",
       "size": 69963
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.15/twckeys.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.16/twckeys.lua",
       "sha256": "a7a3c1443fbb21e93350f50d5d0a203efab86e7a024f943f69bcbb83467b177a",
       "size": 3758
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.15/twcsolo.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.16/twcsolo.lua",
       "sha256": "51065a88604d3652f52921433eee6d38658e50d2d8a3fc5328787fa9732f04f1",
       "size": 3784
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.15/mame.exe",
-      "sha256": "5985438ef8cb887255fe83ff657b4d27003a6363c31a879a146b546761e64909",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.16/mame.exe",
+      "sha256": "9729e0c1348951093dff963d60457924857d98141d207393ef966ba6f8d01681",
       "size": 50640384
     }
   ]
