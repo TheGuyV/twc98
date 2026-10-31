@@ -1,35 +1,35 @@
 {
-  "version": "0.1.16",
+  "version": "0.1.17",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "MAME 수정 고지 보완: 고친 소스 파일마다 변경 표시, 압축의 mame 폴더에 SOURCE.txt (소스 받는 곳) 추가. 0.1.14/0.1.15와 함께 대전 가능",
+  "notes": "경기가 끝나면 창이 닫히지 않고 다음 경기(팀 선택)로 이어집니다. 그만할 때는 게임 창을 닫으세요. (온라인 대전은 모두 0.1.17 필요)",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.16/TWCLauncher.exe",
-      "sha256": "07239e05c7115092f475754cd95d57edee82f9852b829af3e6d1a96d61c2da70",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.17/TWCLauncher.exe",
+      "sha256": "8c7730a726c232f8f8f68a98d359c6093e1e22a4549835de0af25d5234605252",
       "size": 113147000
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.16/twcnet.lua",
-      "sha256": "ea4ce5cf1bbbb7514aaa4994214d014220e414beb2cd37b8163d500f08f85b94",
-      "size": 69963
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.17/twcnet.lua",
+      "sha256": "fccb15a6b4978b0021440d984794e78792b11e84140bd33346f4cf1a591d7885",
+      "size": 71976
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.16/twckeys.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.17/twckeys.lua",
       "sha256": "a7a3c1443fbb21e93350f50d5d0a203efab86e7a024f943f69bcbb83467b177a",
       "size": 3758
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.16/twcsolo.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.17/twcsolo.lua",
       "sha256": "51065a88604d3652f52921433eee6d38658e50d2d8a3fc5328787fa9732f04f1",
       "size": 3784
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.16/mame.exe",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.17/mame.exe",
       "sha256": "9729e0c1348951093dff963d60457924857d98141d207393ef966ba6f8d01681",
       "size": 50640384
     }
