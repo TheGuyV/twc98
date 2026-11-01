@@ -1,35 +1,35 @@
 {
-  "version": "0.1.19",
+  "version": "0.1.20",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "자동 딜레이 개선: 회선에 비해 딜레이가 높게 올라가던 문제 수정(핑 측정 보정, PC 순간 멈춤에는 딜레이를 올리지 않음, 매끄러우면 더 빨리 내림)",
+  "notes": "접속을 누르면 새 버전이 있는지 먼저 확인하고, 있으면 받아서 재시작한 뒤 자동으로 접속합니다(다음 업데이트부터 적용)",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.19/TWCLauncher.exe",
-      "sha256": "31ab0f5c63bf09eb65e05dc10809fa78e44b751936f5b8f48e04762987cd87d9",
-      "size": 113147000
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.20/TWCLauncher.exe",
+      "sha256": "c0363968e6ec47fe93ce26d2adcdd3760d0b465bae6d6bbc614e5e34d87c65e5",
+      "size": 113155192
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.19/twcnet.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.20/twcnet.lua",
       "sha256": "a14d4dfbbdae4ec9c96274d212c1bcb585ce40f568ff58717bd3a6aa7a692927",
       "size": 75095
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.19/twckeys.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.20/twckeys.lua",
       "sha256": "a7a3c1443fbb21e93350f50d5d0a203efab86e7a024f943f69bcbb83467b177a",
       "size": 3758
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.19/twcsolo.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.20/twcsolo.lua",
       "sha256": "51065a88604d3652f52921433eee6d38658e50d2d8a3fc5328787fa9732f04f1",
       "size": 3784
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.19/mame.exe",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.20/mame.exe",
       "sha256": "9729e0c1348951093dff963d60457924857d98141d207393ef966ba6f8d01681",
       "size": 50640384
     }
