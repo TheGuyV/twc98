@@ -1,37 +1,37 @@
 {
-  "version": "0.1.21",
+  "version": "0.1.22",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "",
+  "notes": "실행 속도 복구(0.1.21의 느린 MAME 교체)",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.21/TWCLauncher.exe",
-      "sha256": "b1c6d89526b3966ae9ab5ca0f779f96789c6a58243edeee48c2015f4d5440a50",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.22/TWCLauncher.exe",
+      "sha256": "d48a81b5f98cf689dd293271c454331ab6f73b9a4c16db13ffdd7eb3e93cbb62",
       "size": 113155192
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.21/twcnet.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.22/twcnet.lua",
       "sha256": "a14d4dfbbdae4ec9c96274d212c1bcb585ce40f568ff58717bd3a6aa7a692927",
       "size": 75095
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.21/twckeys.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.22/twckeys.lua",
       "sha256": "a7a3c1443fbb21e93350f50d5d0a203efab86e7a024f943f69bcbb83467b177a",
       "size": 3758
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.21/twcsolo.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.22/twcsolo.lua",
       "sha256": "51065a88604d3652f52921433eee6d38658e50d2d8a3fc5328787fa9732f04f1",
       "size": 3784
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.21/mame.exe",
-      "sha256": "b9a1dcc414d05ddb46dc9f858c452dc3f1ad1c27712f7f72bc5016860275f886",
-      "size": 61850624
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.22/mame.exe",
+      "sha256": "9729e0c1348951093dff963d60457924857d98141d207393ef966ba6f8d01681",
+      "size": 50640384
     }
   ]
 }
