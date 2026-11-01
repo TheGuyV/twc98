@@ -1,35 +1,35 @@
 {
-  "version": "0.1.17",
+  "version": "0.1.18",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "경기가 끝나면 창이 닫히지 않고 다음 경기(팀 선택)로 이어집니다. 그만할 때는 게임 창을 닫으세요. (온라인 대전은 모두 0.1.17 필요)",
+  "notes": "이어하기 2회차부터 키 설정·조작이 안 되던 문제와 하단 아이디 겹침 수정, 관전자 입장 때 저장 알림 창 지움, 하단 HUD 개선(입력 장치·1P/2P·닉네임·핑·딜레이·UDP)",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.17/TWCLauncher.exe",
-      "sha256": "8c7730a726c232f8f8f68a98d359c6093e1e22a4549835de0af25d5234605252",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.18/TWCLauncher.exe",
+      "sha256": "36f20c8a48ca964819c26854c6788c6ce37742e5de8bf42aec2b20d07ed854e2",
       "size": 113147000
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.17/twcnet.lua",
-      "sha256": "fccb15a6b4978b0021440d984794e78792b11e84140bd33346f4cf1a591d7885",
-      "size": 71976
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.18/twcnet.lua",
+      "sha256": "c5fd8ea704b86a582e703ee5acfdb479f1010e9a99890bc6deeb3531143b453b",
+      "size": 74052
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.17/twckeys.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.18/twckeys.lua",
       "sha256": "a7a3c1443fbb21e93350f50d5d0a203efab86e7a024f943f69bcbb83467b177a",
       "size": 3758
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.17/twcsolo.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.18/twcsolo.lua",
       "sha256": "51065a88604d3652f52921433eee6d38658e50d2d8a3fc5328787fa9732f04f1",
       "size": 3784
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.17/mame.exe",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.18/mame.exe",
       "sha256": "9729e0c1348951093dff963d60457924857d98141d207393ef966ba6f8d01681",
       "size": 50640384
     }
