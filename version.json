@@ -1,35 +1,35 @@
 {
-  "version": "0.1.18",
+  "version": "0.1.19",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "이어하기 2회차부터 키 설정·조작이 안 되던 문제와 하단 아이디 겹침 수정, 관전자 입장 때 저장 알림 창 지움, 하단 HUD 개선(입력 장치·1P/2P·닉네임·핑·딜레이·UDP)",
+  "notes": "자동 딜레이 개선: 회선에 비해 딜레이가 높게 올라가던 문제 수정(핑 측정 보정, PC 순간 멈춤에는 딜레이를 올리지 않음, 매끄러우면 더 빨리 내림)",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.18/TWCLauncher.exe",
-      "sha256": "36f20c8a48ca964819c26854c6788c6ce37742e5de8bf42aec2b20d07ed854e2",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.19/TWCLauncher.exe",
+      "sha256": "31ab0f5c63bf09eb65e05dc10809fa78e44b751936f5b8f48e04762987cd87d9",
       "size": 113147000
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.18/twcnet.lua",
-      "sha256": "c5fd8ea704b86a582e703ee5acfdb479f1010e9a99890bc6deeb3531143b453b",
-      "size": 74052
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.19/twcnet.lua",
+      "sha256": "a14d4dfbbdae4ec9c96274d212c1bcb585ce40f568ff58717bd3a6aa7a692927",
+      "size": 75095
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.18/twckeys.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.19/twckeys.lua",
       "sha256": "a7a3c1443fbb21e93350f50d5d0a203efab86e7a024f943f69bcbb83467b177a",
       "size": 3758
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.18/twcsolo.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.19/twcsolo.lua",
       "sha256": "51065a88604d3652f52921433eee6d38658e50d2d8a3fc5328787fa9732f04f1",
       "size": 3784
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.18/mame.exe",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.19/mame.exe",
       "sha256": "9729e0c1348951093dff963d60457924857d98141d207393ef966ba6f8d01681",
       "size": 50640384
     }
