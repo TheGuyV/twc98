@@ -161,8 +161,8 @@ html[lang="en"] h2 { font: clamp(28px, 4.2vw, 46px)/1.05 var(--display); }
 .feat h3 { margin: 0 0 8px; font: 400 22px/1.2 var(--ko-display); color: var(--navy); }
 html[lang="en"] .feat h3 { font: 16px/1.25 var(--display); }
 .feat p { margin: 0; color: var(--ink-2); font-size: 15px; }
-.feat li:nth-child(2) { box-shadow: 6px 6px 0 #ffd2d4; }
-.feat li:nth-child(2) h3::after { content: "FIX"; margin-left: 8px; vertical-align: 3px; font: 11px/1 var(--display); letter-spacing: .08em; background: var(--red); color: var(--white); padding: 3px 6px; border-radius: 3px; }
+.feat li:nth-child(1) { box-shadow: 6px 6px 0 #ffd2d4; }
+.feat li:nth-child(1) h3::after { content: "FIX"; margin-left: 8px; vertical-align: 3px; font: 11px/1 var(--display); letter-spacing: .08em; background: var(--red); color: var(--white); padding: 3px 6px; border-radius: 3px; }
 @media (max-width: 900px) { .feat { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 600px) { .feat { grid-template-columns: 1fr; } }
 
