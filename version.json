@@ -1,37 +1,37 @@
 {
-  "version": "0.1.20",
+  "version": "0.1.21",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "접속을 누르면 새 버전이 있는지 먼저 확인하고, 있으면 받아서 재시작한 뒤 자동으로 접속합니다(다음 업데이트부터 적용)",
+  "notes": "",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.20/TWCLauncher.exe",
-      "sha256": "c0363968e6ec47fe93ce26d2adcdd3760d0b465bae6d6bbc614e5e34d87c65e5",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.21/TWCLauncher.exe",
+      "sha256": "b1c6d89526b3966ae9ab5ca0f779f96789c6a58243edeee48c2015f4d5440a50",
       "size": 113155192
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.20/twcnet.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.21/twcnet.lua",
       "sha256": "a14d4dfbbdae4ec9c96274d212c1bcb585ce40f568ff58717bd3a6aa7a692927",
       "size": 75095
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.20/twckeys.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.21/twckeys.lua",
       "sha256": "a7a3c1443fbb21e93350f50d5d0a203efab86e7a024f943f69bcbb83467b177a",
       "size": 3758
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.20/twcsolo.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.21/twcsolo.lua",
       "sha256": "51065a88604d3652f52921433eee6d38658e50d2d8a3fc5328787fa9732f04f1",
       "size": 3784
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.20/mame.exe",
-      "sha256": "9729e0c1348951093dff963d60457924857d98141d207393ef966ba6f8d01681",
-      "size": 50640384
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.21/mame.exe",
+      "sha256": "b9a1dcc414d05ddb46dc9f858c452dc3f1ad1c27712f7f72bc5016860275f886",
+      "size": 61850624
     }
   ]
 }
