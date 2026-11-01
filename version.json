@@ -1,36 +1,36 @@
 {
-  "version": "0.1.23",
+  "version": "0.1.24",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "온라인 대전 키 설정 유지, Alt 키 수정",
+  "notes": "전체 화면 (Esc: 창으로), 키설정(싱글게임) 버튼",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.23/TWCLauncher.exe",
-      "sha256": "86743553c3e134609dcb4e3dce98b39d79f0a70941e4308bcb85b260c8a2bfb5",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.24/TWCLauncher.exe",
+      "sha256": "9be8bee81d918d0f9d0b39648f213d6e1718048c7eef62e40c0d3fb632428049",
       "size": 113155192
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.23/twcnet.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.24/twcnet.lua",
       "sha256": "a14d4dfbbdae4ec9c96274d212c1bcb585ce40f568ff58717bd3a6aa7a692927",
       "size": 75095
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.23/twckeys.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.24/twckeys.lua",
       "sha256": "a7a3c1443fbb21e93350f50d5d0a203efab86e7a024f943f69bcbb83467b177a",
       "size": 3758
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.23/twcsolo.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.24/twcsolo.lua",
       "sha256": "51065a88604d3652f52921433eee6d38658e50d2d8a3fc5328787fa9732f04f1",
       "size": 3784
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.23/mame.exe",
-      "sha256": "7d23a225642901faba363e0a8017285e1316e91c6c9a8e6669492810cf34bbf9",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.24/mame.exe",
+      "sha256": "a9dfbed7ff401a229a4c74590bd407e1224ddd7a2ddf8ea531c24fb77087a998",
       "size": 50640384
     }
   ]
