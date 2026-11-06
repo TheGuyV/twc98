@@ -1,35 +1,35 @@
 {
-  "version": "0.1.25",
+  "version": "0.1.26",
   "url": "https://twc98.seibucup.online/#download",
-  "notes": "",
+  "notes": "원작 보기 (가로/가로 넓게/세로/세로 넓게) 방장이 선택, 공격 방향 선택 (방장 우선)",
   "files": [
     {
       "path": "TWCLauncher.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.25/TWCLauncher.exe",
-      "sha256": "7875a4d7292244e4630e6bc58e230264545762030f9c0139383ee74f1cfdd710",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.26/TWCLauncher.exe",
+      "sha256": "48c90a7acb85ecac7322ffe5f4821a5f89e9a16f733038df913395a5e4e6ed56",
       "size": 113167480
     },
     {
       "path": "netplay/twcnet.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.25/twcnet.lua",
-      "sha256": "250e0c9743ebbb72c01831bcb3c0a742ab5bec30aa3590a48e8b12c5b95897a9",
-      "size": 83230
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.26/twcnet.lua",
+      "sha256": "94f706f34b1088cf43529bb5229b70aa38552b49e4dc43f38ab9bf32b4ead3f1",
+      "size": 83989
     },
     {
       "path": "netplay/twckeys.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.25/twckeys.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.26/twckeys.lua",
       "sha256": "a7a3c1443fbb21e93350f50d5d0a203efab86e7a024f943f69bcbb83467b177a",
       "size": 3758
     },
     {
       "path": "netplay/twcsolo.lua",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.25/twcsolo.lua",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.26/twcsolo.lua",
       "sha256": "51065a88604d3652f52921433eee6d38658e50d2d8a3fc5328787fa9732f04f1",
       "size": 3784
     },
     {
       "path": "netplay/mame.exe",
-      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.25/mame.exe",
+      "url": "https://github.com/TheGuyV/twc98/releases/download/v0.1.26/mame.exe",
       "sha256": "a9dfbed7ff401a229a4c74590bd407e1224ddd7a2ddf8ea531c24fb77087a998",
       "size": 50640384
     }
